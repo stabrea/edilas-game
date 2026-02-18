@@ -1,0 +1,15 @@
+# Never allow source code to be added
+*.ts
+*.tsx
+!*.d.ts
+src/
+node_modules/
+package.json
+package-lock.json
+tsconfig*.json
+vite.config.*
+vitest.config.*
+.env*
+__tests__/
+CLAUDE.md
+*.map
